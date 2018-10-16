@@ -6,5 +6,6 @@ def my_each(array)
     yield(array[i])
     counter +=1
     end
+  end
   
 end
