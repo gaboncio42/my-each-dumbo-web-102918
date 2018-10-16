@@ -1,10 +1,10 @@
 def my_each(array)
   if block_given?
-    counter = 0
+    i = 0
     
-    while counter < array.length
-    yield
-    counter +=1
+    while i < array.length
+    yield(array[i])
+    i +=1
     end
     
     array
@@ -15,7 +15,7 @@ def my_each(array)
 end
 
 my_each([1, 2, 3, 4]) do |i|
-  puts i
+  i
 end
   
 
