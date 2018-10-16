@@ -9,6 +9,7 @@ def my_each(array)
     
     array
   else
+    puts "This block does not run"
   end
   
 end
